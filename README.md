@@ -33,7 +33,7 @@ No Bootstrap, Tailwind CSS, or pre-built website templates were used.
 ## Project Structure
 - `index.html` — Website structure
 - `style.css` — Website styling
-- `screenshots/` — Website screenshots
+- `images/` — Website images
 - `Project_Report.pdf` — Project documentation
 
 
