@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fatima Haider's personal developer portfolio">
+  <title>Fatima Haider | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="#home">fatima<span>.</span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M FATIMA HAIDER</p>
+        <h1>Building digital<br><span>experiences with purpose.</span></h1>
+        <p>A Computer Science student and aspiring Frontend Developer
+          passionate about creating attractive, responsive and
+          user-friendly websites.</p>
+        <a class="button" href="#projects">Explore My Work ↗</a>
+      </div>
+      <div class="profile-art" aria-label="Decorative profile illustration">
+        <div class="profile-circle">FH</div>
+        <div class="floating-tag">HTML · CSS · React</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+      <p class="description">
+        I am Fatima Haider, pursuing a BS in Computer Science at
+        Virtual University of Pakistan. I enjoy frontend development,
+        UI/UX design and learning through practical projects.
+        My goal is to grow as a developer by building useful,
+        accessible and responsive web applications.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">MY TOOLKIT</p>
+      <h2>Technical <span>Skills</span></h2>
+      <div class="cards">
+        <article class="card"><h3>HTML5</h3><p>Semantic markup and page structure.</p></article>
+        <article class="card"><h3>CSS3</h3><p>Responsive layouts and custom styling.</p></article>
+        <article class="card"><h3>JavaScript</h3><p>Learning core concepts and interactions.</p></article>
+        <article class="card"><h3>React</h3><p>Component-based user interfaces.</p></article>
+        <article class="card"><h3>C / C++</h3><p>Programming fundamentals.</p></article>
+        <article class="card"><h3>Git & GitHub</h3><p>Version control and project sharing.</p></article>
+        <article class="card"><h3>PHP & MySQL</h3><p>Backend and database project experience.</p></article>
+        <article class="card"><h3>UI/UX</h3><p>Interface design and usability principles.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <p class="eyebrow">MY JOURNEY</p>
+      <h2>Education</h2>
+      <article class="card education-card">
+        <p class="eyebrow">UNDERGRADUATE STUDIES</p>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>Virtual University of Pakistan</p>
+        <p>Expected completion: 2026</p>
+      </article>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Featured <span>Projects</span></h2>
+      <div class="cards projects">
+        <article class="card">
+          <div class="project-art dashboard-art">ANALYTICS / 01</div>
+          <h3>Analytics Dashboard</h3>
+          <p>A dashboard interface for metrics, data visualisation and filtering.</p>
+          <p class="tech">React · JavaScript · Recharts</p>
+          <a href="https://github.com/codebyfatima5/analytics-dashboard"
+             target="_blank" rel="noopener noreferrer">View Repository ↗</a>
+        </article>
+        <article class="card">
+          <div class="project-art field-art">FIELDOPS / 02</div>
+          <h3>FieldOps PWA</h3>
+          <p>A field-work interface exploring offline-first functionality.</p>
+          <p class="tech">React · Vite · Dexie · PWA</p>
+          <a href="https://github.com/codebyfatima5/teyzicorefieldops"
+             target="_blank" rel="noopener noreferrer">View Repository ↗</a>
+        </article>
+        <article class="card">
+          <div class="project-art beauty-art">BEAUTIFY / 03</div>
+          <h3>Beautify</h3>
+          <p>A home beauty services booking website with client and admin workflows.</p>
+          <p class="tech">PHP · MySQL · HTML · CSS</p>
+          <span class="project-note">Academic project · CS619</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have an opportunity? <span>Say hello.</span></h2>
+      <p>I'm interested in frontend internships and collaborative projects.</p>
+      <div class="contact-links">
+        <a href="https://github.com/codebyfatima5" target="_blank"
+           rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/fatima-haider-801910373/"
+           target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+
+      <form class="contact-form" action="#" onsubmit="return false">
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" placeholder="fatimahaiderdandot@gmail.com" required>
+
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" placeholder="Message subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"
+          placeholder="Write your message..." required></textarea>
+
+        <button class="button" type="submit">Send Message ↗</button>
+        <p class="form-note">Demo form only; no backend is connected.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">fatima<span>.</span></a>
+    <p>Designed and developed with HTML5 & CSS3.</p>
+    <p>© 2026 Fatima Haider. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>

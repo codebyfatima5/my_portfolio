@@ -36,9 +36,6 @@ No Bootstrap, Tailwind CSS, or pre-built website templates were used.
 - `screenshots/` — Website screenshots
 - `Project_Report.pdf` — Project documentation
 
-## Live Demo
-
-## GitHub Repository
 
 
 ## Author
